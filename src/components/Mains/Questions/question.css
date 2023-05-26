@@ -1,0 +1,22 @@
+.question{
+    margin: 3rem 0;
+    background-color: #F8FBFE;
+}
+.question-titles{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 2rem;
+}
+.question__title{
+    color: #124265;
+}
+.question__text{
+    color: #585858;
+}
+
+.question-accordion{
+  display: block;
+  direction: rtl;
+margin: 1rem 0;
+}

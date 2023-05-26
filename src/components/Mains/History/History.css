@@ -1,0 +1,36 @@
+.history{
+    margin-top: 3rem;
+}
+.history-img{
+ width: 550px;
+ height: 400px;
+ text-align: right;
+}
+.history-content{
+    text-align: right;
+}
+.history-content-title{
+    color: #587A93;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+.history-content-text{
+color: #4e4c4c; 
+margin: 1rem 0;
+}
+.history-items{
+padding-top: 1.5rem;
+}
+.history-item{
+color: #4e4c4c;
+list-style: none;
+}
+
+.history-item i{
+    color: #2487CE;
+    margin-left: 0.5rem;
+}
+.history-paraph{
+color: #4e4c4c;
+padding-top: 2rem;
+}

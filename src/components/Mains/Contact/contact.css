@@ -1,0 +1,115 @@
+.contact{
+    margin: 4rem 0;
+}
+.contact-titles{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 2rem;
+}
+.contact__title{
+    color: #124265;
+}
+.contact__text{
+    color: #585858;
+}
+
+.contact-from-address{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+}
+.contact-address{
+    cursor: pointer;
+    flex-basis: 40%;
+}
+.address{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    text-align: center;
+margin-bottom: 1.5rem;
+ transition: all 0.3s ease-out;
+}
+.address:hover .address-img {
+    background-color: #4298D5;
+    color: #fff;
+}
+.address-img{
+    text-align: center;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    background-color: #E3F0FA;
+    width: 3rem;
+    height: 3rem;
+    color: #2889CE;
+    border-radius: 0.3rem;
+}
+.address-content{
+    text-align: right;
+}
+.address-content-title{
+    font-family: iranLight;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #124265;
+}
+.address-content-text{
+    font-family: iranLight;
+    font-size: 0.9rem;
+    color: #418EC5;
+}
+.content-form{
+    flex-basis: 60%;
+}
+.form-box{
+    width: 100%;
+}
+.form-box-users{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.form-user-input{
+    width: 48%;
+    height: 2.5rem;
+    text-align: right;
+    border-radius: 0.3rem;
+    border: 1px solid #CED4DA;
+}
+.form-subjects{
+    display: flex;
+    flex-direction: column;
+}
+.form-jubject-title{
+    margin-top: 1rem;
+    height: 2.5rem;
+    text-align: right;
+    border-radius: 0.3rem;
+    border: 1px solid #CED4DA;
+}
+.form-subject-text{
+    margin-top: 1rem;
+    text-align: right;
+    border-radius: 0.3rem;
+    height: 8rem;
+    border: 1px solid #CED4DA;
+}
+.form-box-btn{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin: 1rem auto;
+    padding: 0.1rem 0;
+    background-color: #2889CE;
+    border-radius: 0.3rem;
+    color: #fff;
+    width: 100px;
+    height: 2rem;
+}
+.form-box-btn:hover{
+    color: #fff;
+    background-color: #4298D5;
+}

@@ -1,0 +1,47 @@
+.sample-work{
+margin-top: 3rem;
+}
+.sample-titles{
+      display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 2rem;
+}
+.sample__title{
+    color: #124265;
+}
+.sample__text{
+    color: #585858;
+}
+
+.sample-buttons{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.sample-btns{
+    margin: 0 0.4rem;
+    border: none;
+    outline: none;
+    color: #4A4A4A;
+    background-color: #fff;
+    font-weight: 700;
+    transition: all 0.3s ease-out   ;
+}
+.sample-btns:hover{
+    color: #124265;
+}
+.sample-btn-active{
+color: #124265;
+}
+.samlpe-images{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+.sample-images-img{ 
+    width: 300px;
+    margin: 1rem 2rem;
+}

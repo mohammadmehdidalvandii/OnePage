@@ -1,0 +1,82 @@
+.about{
+margin-top: 3rem;
+}
+.about-titles{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.about__title{
+    color: #124265;
+}
+.about__text{
+    color: #585858;
+}
+
+.about-content-left{
+    text-align: right;
+    margin-top: 1rem;
+}
+.content-left-parph{
+    color: #909090;
+}
+.content-left-button{
+    margin-top: 2rem;
+    border: 2px solid #2487CE;
+    border-radius: 0.3rem;
+    padding: 0.3rem 2rem;
+    text-decoration: none;
+    color: #124265;
+    transition: all 0.3s ease-out;
+}
+
+.content-left-button:hover{
+    background-color: #2487CE;
+    color: #fff;
+}
+
+.about-content-right{
+    text-align: right;
+    margin-top: 1rem;
+}
+.content-right-parph{
+    color: #909090;
+}
+.content-left-item{
+
+}
+.left-item{
+    list-style: none;
+    color: #909090;
+}
+.left-item i{
+    color: #2487CE;
+    margin-left: 0.3rem;
+}
+
+.about-work{
+    margin-top: 1rem;
+    background-color: #F8FBFE;
+    height: 7rem;
+}
+.about__work{
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-around;
+}
+.work-box{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.work-number{
+color: #124265;
+font-size: 2rem;
+font-weight: bold;
+}
+.work-text{
+    color: #326CAE;
+    font-size: 1rem;
+}

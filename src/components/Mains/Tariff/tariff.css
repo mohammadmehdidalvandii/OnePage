@@ -1,0 +1,107 @@
+.tariff{
+margin-top: 3rem;
+background-color: #FEFEFE;
+}
+.tariff-titles{
+        display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 2rem;
+}
+.tariff__title{
+    color: #124265;
+}
+.tariff__text{
+    color: #585858;
+}
+
+.tariffs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+}
+.box-tariff{
+    width: 350px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 0.3rem;
+    padding: 1rem;
+}
+.titles-tariff{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+}
+.tariff-title{
+    font-family: iranBlack;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.tariff-price{
+    font-family: iranMedium;
+    font-size: 1rem;
+    margin: 0.8rem 0;
+    color: #2A8ACF;
+}
+.content-tariff-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tariff-menu-text{
+    margin: 0.4rem 0;
+    font-size: 1rem;
+    font-family: iranLight;
+}
+
+.box-tariff-btn{
+    text-decoration: none;
+    display: block;
+    margin: 1rem auto;
+    border: 3px solid #2487CE;
+    border-radius: 0.3rem;
+    width: 120px;
+    height: 2rem;
+    text-align: center;
+    color: #2A8ACF;
+    transition: all 0.3s ease-out;
+}
+.tariff-price-blue{
+    color: #fff;
+}
+.box-tariff-btn:hover{
+    background-color: #2487CE;
+    color: #fff;
+}
+
+
+.box-tariif-blue{
+    background-color: #2487CE;
+    color: #fff;
+}
+
+.box-tariff-btn-blue{
+    text-decoration: none;
+    display: block;
+    margin: 1rem auto;
+    border: 3px solid #fff;
+    border-radius: 0.3rem;
+    width: 120px;
+    height: 2rem;
+    text-align: center;
+    color: #fff;
+    transition: all 0.3s ease-out;
+}
+.box-tariff-btn-blue:hover{
+    background-color: #fff;
+    color: #2487CE;
+}
+
+.text-line{
+        color: #CCCCCC;
+        position: relative;
+}

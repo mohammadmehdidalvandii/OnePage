@@ -1,0 +1,77 @@
+.headers{
+    background-image: url(/public/images/headerBg.jpg);
+   width: 100%;
+   height: 100vh;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7rem;
+}
+.header-content-title{
+    margin-top: 2rem;    
+    color: #124265;  
+}
+.header-contant-text{
+    color: #7A7A7B;
+    margin-top: 1.5rem;
+}
+.header-content-button{
+    margin-top: 2rem;
+    background-color: #2487CE;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    padding-top: 0.3rem;
+    font-size: 0.9rem;
+    width: 80px;
+    height: 2rem;
+    border-radius: 0.3rem;
+    transition: all 0.3s ease-out;
+}
+.header-content-button:hover{
+    color: #fff;
+    background-color: #124265;
+}
+
+.header-box{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 3rem 0;
+
+}
+
+.box-item{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 260px;
+   background-color: #fff;
+   border-radius: 0.3rem;
+   padding: 1rem;
+   cursor: pointer;
+   transition: all 0.3s ease-out;
+}
+.box-item:hover{
+    transform: scale(1.1);
+}
+.box-item i{
+    font-size: 2rem;
+    color: #2487CE;
+}
+.box-item-title{
+font-size: 1.3rem;
+color: #124265;
+}
+.box-item-paraph{
+    text-align: center;
+    font-size: 0.9rem;
+    color: #838383;
+}
